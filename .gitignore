@@ -1,0 +1,30 @@
+# Local runtime config
+config.json
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Source-build artifacts, if source files are later added
+build/
+dist/
+*.spec
+.venv/
+venv/
+env/
+
+# Keep PyInstaller runtime files in this binary release repository.
+# Do not ignore PomodoroClock.exe or _internal/.
